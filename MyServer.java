@@ -85,7 +85,10 @@ try{
 	s.close();
 
    }
+catch(IOException e){System.out.println("MyThread Run"+e);}
+
 catch(Exception e){System.out.println("MyThread Run"+e);}
+}
 }
 ////////////////////////
 public void sendNewUserList()
